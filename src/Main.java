@@ -12,5 +12,9 @@ public class Main {
         System.out.println("ФИО сотрудника — " + fullName);
         System.out.println("решение задачи №2");
         System.out.println("Данные ФИО сотрудника для заполнения отчета — " + fullName.toUpperCase());
+        System.out.println("решение задачи №3");
+        fullName = "Иванов Семён Семёнович";
+        fullName = fullName.replace("ё", "е");
+        System.out.println("Данные ФИО сотрудника — " + fullName);
     }
 }
